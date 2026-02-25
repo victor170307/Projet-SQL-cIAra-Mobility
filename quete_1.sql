@@ -9,5 +9,5 @@ SELECT * FROM vehicule WHERE etat = 'disponible'; [cite: 91]
 -- 3. Afficher les véhicules situés dans une ville donnée (ex: 'Lyon')
 SELECT * FROM vehicule WHERE ville = 'Lyon'; [cite: 92]
 
--- 4. Afficher les véhicules ayant une autonomie supérieure à 400 km
+-- 4. Afficher les véhicules ayant une autonomie supérieur
 SELECT * FROM vehicule WHERE autonomie_km > 400; [cite: 93]
