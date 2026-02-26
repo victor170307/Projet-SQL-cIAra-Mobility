@@ -1,13 +1,7 @@
--- QUÊTE 1 : DÉCOUVERTE DU SQL
+SELECT * FROM vehicule; 
 
--- 1. Afficher tous les véhicules
-SELECT * FROM vehicule; [cite: 90]
+SELECT * FROM vehicule WHERE etat = 'disponible';
 
--- 2. Afficher uniquement les véhicules disponibles
-SELECT * FROM vehicule WHERE etat = 'disponible'; [cite: 91]
+SELECT * FROM vehicule WHERE ville = 'Lyon'; 
 
--- 3. Afficher les véhicules situés dans une ville donnée (ex: 'Lyon')
-SELECT * FROM vehicule WHERE ville = 'Lyon'; [cite: 92]
-
--- 4. Afficher les véhicules ayant une autonomie supérieur
-SELECT * FROM vehicule WHERE autonomie_km > 400; [cite: 93]
+SELECT * FROM vehicule WHERE autonomie_km > 400;
